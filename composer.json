@@ -1,0 +1,19 @@
+{
+    "name": "pcore/context",
+    "type": "library",
+    "homepage": "https://github.com/pcore-framework/context",
+    "authors": [
+        {
+            "name": "Magomedcoder",
+            "email": "info@magomedcoder.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PCore\\Context\\": "src/"
+        }
+    }
+}
