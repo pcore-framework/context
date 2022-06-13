@@ -84,5 +84,13 @@ class Context
         }
     }
 
+    /**
+     * @param int|null $cid
+     * @return mixed
+     */
+    public static function for(?int $cid = null): mixed
+    {
+        return Coroutine::getContext($cid);
+    }
 
 }
