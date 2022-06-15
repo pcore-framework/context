@@ -1,6 +1,7 @@
 {
     "name": "pcore/context",
     "type": "library",
+    "license": "MIT",
     "homepage": "https://github.com/pcore-framework/context",
     "authors": [
         {
