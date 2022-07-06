@@ -24,7 +24,10 @@ class Context
      */
     protected static function getCid(): mixed
     {
-        return Coroutine::getCid();
+        if (class_exists('Swoole\Coroutine')) {
+            return Coroutine::getCid();
+        }
+        return -1;
     }
 
     /**
